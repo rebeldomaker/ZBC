@@ -20,10 +20,12 @@ class Program
         int im0ld = currentYear - year; 
         
         // todo:
-        /* if x => 18 then:
-        print("hah, dumass")
-        else:
-        print("wtf ur underaged, gtfo!")
+        /* x = int(input("Type a number: "))
+           
+           if x >= 18:
+               print("hah, dumass")
+           else:
+               print("wtf ur underaged, gtfo!")
         */
         
         
