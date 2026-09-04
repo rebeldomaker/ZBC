@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/reb/RiderProjects/ZBC/School/School.csproj",
-      "projectName": "School",
-      "projectPath": "/home/reb/RiderProjects/ZBC/School/School.csproj",
+      "projectUniqueName": "/home/reb/RiderProjects/ZBC/ZBC2026/ZBC2026.csproj",
+      "projectName": "ZBC2026",
+      "projectPath": "/home/reb/RiderProjects/ZBC/ZBC2026/ZBC2026.csproj",
       "packagesPath": "/home/reb/.nuget/packages/",
-      "outputPath": "/home/reb/RiderProjects/ZBC/School/obj/",
+      "outputPath": "/home/reb/RiderProjects/ZBC/ZBC2026/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/reb/.nuget/NuGet/NuGet.Config"

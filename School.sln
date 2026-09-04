@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School", "School\School.csproj", "{7DAB61EF-E10A-4879-BC98-69AD6065B749}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBC2026", "ZBC2026\ZBC2026.csproj", "{7DAB61EF-E10A-4879-BC98-69AD6065B749}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

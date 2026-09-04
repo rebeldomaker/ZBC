@@ -1,0 +1,15 @@
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/School.GeneratedMSBuildEditorConfig.editorconfig
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/School.AssemblyInfoInputs.cache
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/School.AssemblyInfo.cs
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/School.csproj.CoreCompileInputs.cache
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/School.sourcelink.json
+/home/reb/RiderProjects/ZBC/School/bin/Debug/net10.0/School
+/home/reb/RiderProjects/ZBC/School/bin/Debug/net10.0/School.deps.json
+/home/reb/RiderProjects/ZBC/School/bin/Debug/net10.0/School.runtimeconfig.json
+/home/reb/RiderProjects/ZBC/School/bin/Debug/net10.0/School.dll
+/home/reb/RiderProjects/ZBC/School/bin/Debug/net10.0/School.pdb
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/School.dll
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/refint/School.dll
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/School.pdb
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/School.genruntimeconfig.cache
+/home/reb/RiderProjects/ZBC/School/obj/Debug/net10.0/ref/School.dll
