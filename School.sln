@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBC2026", "ZBC2026\ZBC2026.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack", "Blackjack\Blackjack.csproj", "{029CED0E-CAA5-4469-AC69-EF27CB516E3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples from Teacher", "Examples from Teacher\Examples from Teacher.csproj", "{67631E84-25AF-45F3-84E8-45838A7DDB6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{029CED0E-CAA5-4469-AC69-EF27CB516E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{029CED0E-CAA5-4469-AC69-EF27CB516E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{029CED0E-CAA5-4469-AC69-EF27CB516E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67631E84-25AF-45F3-84E8-45838A7DDB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67631E84-25AF-45F3-84E8-45838A7DDB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67631E84-25AF-45F3-84E8-45838A7DDB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67631E84-25AF-45F3-84E8-45838A7DDB6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
