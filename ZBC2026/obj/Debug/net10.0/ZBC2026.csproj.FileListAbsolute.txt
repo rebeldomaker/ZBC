@@ -1,0 +1,15 @@
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/ZBC2026.GeneratedMSBuildEditorConfig.editorconfig
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/ZBC2026.AssemblyInfoInputs.cache
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/ZBC2026.AssemblyInfo.cs
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/ZBC2026.csproj.CoreCompileInputs.cache
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/ZBC2026.sourcelink.json
+/home/reb/RiderProjects/ZBC/ZBC2026/bin/Debug/net10.0/ZBC2026
+/home/reb/RiderProjects/ZBC/ZBC2026/bin/Debug/net10.0/ZBC2026.deps.json
+/home/reb/RiderProjects/ZBC/ZBC2026/bin/Debug/net10.0/ZBC2026.runtimeconfig.json
+/home/reb/RiderProjects/ZBC/ZBC2026/bin/Debug/net10.0/ZBC2026.dll
+/home/reb/RiderProjects/ZBC/ZBC2026/bin/Debug/net10.0/ZBC2026.pdb
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/ZBC2026.dll
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/refint/ZBC2026.dll
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/ZBC2026.pdb
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/ZBC2026.genruntimeconfig.cache
+/home/reb/RiderProjects/ZBC/ZBC2026/obj/Debug/net10.0/ref/ZBC2026.dll
