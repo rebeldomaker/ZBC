@@ -33,10 +33,12 @@ class Program
         if (inputAge >= 18)
         {
             Console.WriteLine("You are an adult.");
+            // todo break out of loop and continue the main code of program
         }
         else
         {
             Console.WriteLine("You are underaged, access denied!");
+            // todo break out of loop and continue the main code of program
         }
     }
 }

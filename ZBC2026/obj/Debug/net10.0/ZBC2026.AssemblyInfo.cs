@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZBC2026")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7988a04a2d32f57688d3f13d1ee2b1a72ec1313d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb5e29eea4a3c6024dca24a23001b87daeb24307")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZBC2026")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZBC2026")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
