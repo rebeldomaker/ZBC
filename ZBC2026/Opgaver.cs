@@ -21,7 +21,7 @@ class Program
         
         Console.WriteLine($"My name is {name}, and I am {age} years old.\nDid you know that the average body temperature of a rat is {temp} celsius?\nLet's do some cool math stuff now! 2 + 2 = {x}, yeah I know, I am a math genius. Anyway...\nI am sitting next to Cassandra, she's {kammeratAlder} y/o. Both our ages combined would be {y}.\nOk I am starting to get kind of lazy from writing these cheesy wall texts so lemme speedrun some other stuff to quickly meet my quotas for my C# class today:\n{z}\nMy favorite weather is when it is between {weatherCold}-{weatherWarm}C.\nSince I was born in {year} that then means I am currently {im0ld} in {currentYear}");
         
-        CheckAge();
+        // CheckAge();
     }
     
     // Method is defined HERE at the class level, not inside Main
