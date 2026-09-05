@@ -1,0 +1,15 @@
+/home/reb/RiderProjects/ZBC/Blackjack/bin/Debug/net10.0/Blackjack
+/home/reb/RiderProjects/ZBC/Blackjack/bin/Debug/net10.0/Blackjack.deps.json
+/home/reb/RiderProjects/ZBC/Blackjack/bin/Debug/net10.0/Blackjack.runtimeconfig.json
+/home/reb/RiderProjects/ZBC/Blackjack/bin/Debug/net10.0/Blackjack.dll
+/home/reb/RiderProjects/ZBC/Blackjack/bin/Debug/net10.0/Blackjack.pdb
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/Blackjack.GeneratedMSBuildEditorConfig.editorconfig
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/Blackjack.AssemblyInfoInputs.cache
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/Blackjack.AssemblyInfo.cs
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/Blackjack.csproj.CoreCompileInputs.cache
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/Blackjack.sourcelink.json
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/Blackjack.dll
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/refint/Blackjack.dll
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/Blackjack.pdb
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/Blackjack.genruntimeconfig.cache
+/home/reb/RiderProjects/ZBC/Blackjack/obj/Debug/net10.0/ref/Blackjack.dll
