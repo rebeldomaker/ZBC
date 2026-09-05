@@ -3,7 +3,7 @@ class Program
     static void Main()
     {
         Console.WriteLine("Hello, World!");
-        
+
         // variable slop goes here
         string name = "Jesse";
         int age = 29;
@@ -18,53 +18,39 @@ class Program
         int year = 1997;
         int currentYear = DateTime.Now.Year;
         int im0ld = currentYear - year;
-        
-        Console.WriteLine($"My name is {name}, and I am {age} years old.\nDid you know that the average body temperature of a rat is {temp} celsius?\nLet's do some cool math stuff now! 2 + 2 = {x}, yeah I know, I am a math genius. Anyway...\nI am sitting next to Cassandra, she's {kammeratAlder} y/o. Both our ages combined would be {y}.\nOk I am starting to get kind of lazy from writing these cheesy wall texts so lemme speedrun some other stuff to quickly meet my quotas for my C# class today:\n{z}\nMy favorite weather is when it is between {weatherCold}-{weatherWarm}C.\nSince I was born in {year} that then means I am currently {im0ld} in {currentYear}");
-        
-        // CheckAge();
-    }
-    
-    // Method is defined HERE at the class level, not inside Main
-        {// todo Create a variable called erVoksen and set it to True or False depending on whether you are over 18. Print it.
-        static void CheckAge()
 
-        Console.WriteLine("Input your age:\n ");
+        Console.WriteLine(
+            $"My name is {name}, and I am {age} years old.\nDid you know that the average body temperature of a rat is {temp} celsius?\nLet's do some cool math stuff now! 2 + 2 = {x}, yeah I know, I am a math genius. Anyway...\nI am sitting next to Cassandra, she's {kammeratAlder} y/o. Both our ages combined would be {y}.\nOk I am starting to get kind of lazy from writing these cheesy wall texts so lemme speedrun some other stuff to quickly meet my quotas for my C# class today:\n{z}\nMy favorite weather is when it is between {weatherCold}-{weatherWarm}C.\nSince I was born in {year} that then means I am currently {im0ld} in {currentYear}");
+
+        // todo Create a variable called erVoksen and set it to True or False depending on whether you are over 18. Print it.
+        Console.WriteLine("Input your age: ");
         int inputAge = int.Parse(Console.ReadLine());
-        
-        
-        /*
-         if (inputAge >= 18)
-        
-        {     Console.WriteLine("You are an adult.");
-        }
-        else
-        {
-            Console.WriteLine("You are underaged, access denied!");
-        }*/
-        
+        bool isAdult = inputAge >= 18;
+        Console.WriteLine(isAdult);
+
         // todo Create a program that calculates the average of three characters, e.g. 7, 10 and 4. Print the result.
-        
+
         // todo Store a city name in a variable, and print the sentence: "I live in [city name]"
-        
-        // todo Create two variables, a and b. a should contain “Hello” and b should contain “World”. Print it out to the console. Via the code, you must now swap the contents of a and b. So a contains “World” and b contains “Hello”. Print it out to the console.
+
+        // todo Create two variables, a and b. a should contain "Hello" and b should contain "World". Print it out to the console. Via the code, you must now swap the contents of a and b. So a contains "World" and b contains "Hello". Print it out to the console.
         // User Input
         // 
         // todo Create a program where the user enters their name and the program prints the name to the console.
         // 
-        // todo Extend the program to write “Hello [user’s name].
+        // todo Extend the program to write "Hello [user's name].
         // 
         // todo Create a program that can add two numbers together and print the result
         // 
         // todo Ask the user their age and tell them how many years they have left until they turn 100.
         // 
-        // todo Ask the user their favorite color and print a sentence: “Your favorite color is [color] – it’s beautiful!”
+        // todo Ask the user their favorite color and print a sentence: "Your favorite color is [color] – it's beautiful!"
         // 
         // Bonus task!
         // todo Try making some console prints that guide users to what input they should give:
-        // For example, “Enter your name”
+        // For example, "Enter your name"
         // 
         // For loop
-        // todo Create a for loop that prints “Hello World!” out 5 times.
+        // todo Create a for loop that prints "Hello World!" out 5 times.
         // 
         // todo Create a for loop that prints the numbers from 0 to 10, in the console.
         // 
@@ -85,19 +71,19 @@ class Program
         // 
         // todo Make a while loop that prints the numbers from 0 to 12, in the console.
         // 
-        // todo Make a program that asks the user to type “hello”, every time the user does not type “hello”, the program should print the user’s words and ask the user to type “hello”. When the user types “hello”, the program stops.
+        // todo Make a program that asks the user to type "hello", every time the user does not type "hello", the program should print the user's words and ask the user to type "hello". When the user types "hello", the program stops.
         // 
-        // todo Make a program that asks the user for a password. If the user types “secret”, the program writes “Access granted”, otherwise it asks again.
+        // todo Make a program that asks the user for a password. If the user types "secret", the program writes "Access granted", otherwise it asks again.
         // 
         // todo Make a program that asks the user for a number. If the number is less than 0, the program asks again. When the user enters a positive number, the program stops.
         // 
         // If-else statement
         // todo Make a program where you enter an age, and it prints:
-        // “You are a teenager”, if the age is between 13 and 19.
-        // “You are an adult”, if over 19.
-        // “You are a child”, if under 13
+        // "You are a teenager", if the age is between 13 and 19.
+        // "You are an adult", if over 19.
+        // "You are a child", if under 13
         // 
-        // todo Make a program where the user enters a number. If the number is divisible by 2, say “Even number”, otherwise "Odd numbers".
+        // todo Make a program where the user enters a number. If the number is divisible by 2, say "Even number", otherwise "Odd numbers".
         // 
         // todo Make a simple quiz question: "What is the capital of Denmark?" If the answer is "Copenhagen", then print "Correct!", otherwise "Incorrect!".
         // 
@@ -128,7 +114,5 @@ class Program
         // todo Create a 2d array with {1,2,3,4} and {5,6,7,8}
         // 
         // todo Print different pl
-        
-        
-        }
+    }
 }
