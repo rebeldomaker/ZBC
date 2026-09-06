@@ -75,8 +75,19 @@ class Program
          // Bonus task!
          
          // For loop
-         // todo Create a for loop that prints "Hello World!" out 5 times.
+         // Create a for loop that prints "Hello World!" out 5 times.
+         /* x = 0
+            while x < 5:
+                print(x, "Hello World")
+                x = x + 1*/
          
+         int hello = 0;
+         while (hello < 5)
+         {
+             Console.WriteLine($"{hello} Hello World!");
+             hello = hello + 1;
+         }         
+
          // todo Create a for loop that prints the numbers from 0 to 10, in the console.
          // 
          // todo Create a for loop that prints the numbers from 10 to 1, in the console.
