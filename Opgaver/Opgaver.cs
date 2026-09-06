@@ -29,7 +29,12 @@ class Program
         Console.WriteLine(isAdult);
 
         // todo Create a program that calculates the average of three characters, e.g. 7, 10 and 4. Print the result.
+        int num1 = 7;
+        int num2 = 10;
+        int num3 = 4;
+        double numAverage = (num1 + num2 + num3) / 3.0;
 
+        Console.WriteLine($"({num1} + {num2} + {num3}) : 3 = {numAverage}");
         // todo Store a city name in a variable, and print the sentence: "I live in [city name]"
 
         // todo Create two variables, a and b. a should contain "Hello" and b should contain "World". Print it out to the console. Via the code, you must now swap the contents of a and b. So a contains "World" and b contains "Hello". Print it out to the console.

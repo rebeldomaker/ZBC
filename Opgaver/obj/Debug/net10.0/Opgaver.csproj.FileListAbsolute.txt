@@ -1,0 +1,15 @@
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/Opgaver.GeneratedMSBuildEditorConfig.editorconfig
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/Opgaver.AssemblyInfoInputs.cache
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/Opgaver.AssemblyInfo.cs
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/Opgaver.csproj.CoreCompileInputs.cache
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/Opgaver.sourcelink.json
+/home/reb/RiderProjects/ZBC/Opgaver/bin/Debug/net10.0/Opgaver
+/home/reb/RiderProjects/ZBC/Opgaver/bin/Debug/net10.0/Opgaver.deps.json
+/home/reb/RiderProjects/ZBC/Opgaver/bin/Debug/net10.0/Opgaver.runtimeconfig.json
+/home/reb/RiderProjects/ZBC/Opgaver/bin/Debug/net10.0/Opgaver.dll
+/home/reb/RiderProjects/ZBC/Opgaver/bin/Debug/net10.0/Opgaver.pdb
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/Opgaver.dll
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/refint/Opgaver.dll
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/Opgaver.pdb
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/Opgaver.genruntimeconfig.cache
+/home/reb/RiderProjects/ZBC/Opgaver/obj/Debug/net10.0/ref/Opgaver.dll
