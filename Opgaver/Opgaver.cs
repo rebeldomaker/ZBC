@@ -88,10 +88,21 @@ class Program
              hello = hello + 1;
          }         
 
-         // todo Create a for loop that prints the numbers from 0 to 10, in the console.
-         // 
-         // todo Create a for loop that prints the numbers from 10 to 1, in the console.
-         // 
+         Console.WriteLine("This is a for loop that counts and prints the numbers from 0 to 10."); 
+         int count2ten = 1;
+         while (count2ten < 11)
+         {
+             Console.WriteLine(count2ten);
+             count2ten = count2ten + 1;
+         }
+         
+         Console.WriteLine("Now let's loop again from 10 to 1, but backwards!");
+         int countBackwards = 10;
+         while (countBackwards > 0)
+         {
+             Console.WriteLine(countBackwards);
+             countBackwards = countBackwards - 1;
+         }
          // todo Ask the user to enter a number between 1 and 20. Count down from the user's number to 0 and display the countdown.
          // 
          // todo Create a program that prints a large X to the console using for loops.
@@ -100,7 +111,7 @@ class Program
          // 
          // todo Print the sum of the numbers from 1 to 100.
          // 
-         // todo Create a program that spells a word backwards.
+         // todo Create a program that spells a word backwards._
          // 
          // While loop
          // todo Create a while loop that prints "Hello World!" 6 times.
