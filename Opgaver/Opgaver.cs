@@ -66,6 +66,7 @@ class Program
         int hundredYears = 100 - userCurrentAge; // 100 - 29 = result
         
          Console.WriteLine($"It is currently {currentYear}, you were born in {userYear} making you currently {userCurrentAge} y/o. You will be 100 y/o in {futureYear}, meaning you have {hundredYears} years left until you turn 100 y/o.");
+         
          // todo Ask the user their favorite color and print a sentence: "Your favorite color is [color] – it's beautiful!"
          // 
          // Bonus task!
@@ -136,6 +137,6 @@ class Program
          // 
          // todo Create a 2d array with {1,2,3,4} and {5,6,7,8}
          // 
-         // todo Print different pl
+         // todo Print different places from task 5
     }
 }
