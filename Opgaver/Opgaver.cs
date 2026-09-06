@@ -67,8 +67,11 @@ class Program
         
          Console.WriteLine($"It is currently {currentYear}, you were born in {userYear} making you currently {userCurrentAge} y/o. You will be 100 y/o in {futureYear}, meaning you have {hundredYears} years left until you turn 100 y/o.");
          
-         // todo Ask the user their favorite color and print a sentence: "Your favorite color is [color] – it's beautiful!"
-         // 
+         // Ask the user their favorite color and print a sentence: "Your favorite color is [color] – it's beautiful!"
+         Console.WriteLine("What's your favorite color? ");
+         string color = Console.ReadLine();
+         Console.WriteLine($"Your favorite color is {color} – it's beautiful!");
+         
          // Bonus task!
          // todo Try making some console prints that guide users to what input they should give:
          // For example, "Enter your name"
