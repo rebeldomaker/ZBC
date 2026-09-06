@@ -73,12 +73,10 @@ class Program
          Console.WriteLine($"Your favorite color is {color} – it's beautiful!");
          
          // Bonus task!
-         // todo Try making some console prints that guide users to what input they should give:
-         // For example, "Enter your name"
          
          // For loop
          // todo Create a for loop that prints "Hello World!" out 5 times.
-         // 
+         
          // todo Create a for loop that prints the numbers from 0 to 10, in the console.
          // 
          // todo Create a for loop that prints the numbers from 10 to 1, in the console.
