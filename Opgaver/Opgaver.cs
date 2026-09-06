@@ -47,13 +47,16 @@ class Program
         Console.WriteLine($"{a} {b}");
             
         // User Input
-        // 
-        // todo Create a program where the user enters their name and the program prints the name to the console.
-        // 
-        // todo Extend the program to write "Hello [user's name].
-        // 
+        // Create a program where the user enters their name and the program prints the name to the console.
+        Console.WriteLine("Input your Name:");
+        string inputName = Console.ReadLine();
+        Console.WriteLine($"Your name is {inputName}. Hello, {inputName}!");
+
         // todo Create a program that can add two numbers together and print the result
-        // 
+        int skaicius1 = 4;
+        int skaicius2 = 20;
+        int sudetis = skaicius1 + skaicius2;
+        Console.WriteLine($"{skaicius1} + {skaicius2} = {sudetis}");
         // todo Ask the user their age and tell them how many years they have left until they turn 100.
         // 
         // todo Ask the user their favorite color and print a sentence: "Your favorite color is [color] – it's beautiful!"
