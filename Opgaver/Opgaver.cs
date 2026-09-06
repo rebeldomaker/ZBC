@@ -36,8 +36,16 @@ class Program
 
         Console.WriteLine($"({num1} + {num2} + {num3}) : 3 = {numAverage}");
         // todo Store a city name in a variable, and print the sentence: "I live in [city name]"
-
-        // todo Create two variables, a and b. a should contain "Hello" and b should contain "World". Print it out to the console. Via the code, you must now swap the contents of a and b. So a contains "World" and b contains "Hello". Print it out to the console.
+        string city = "Slagelse";
+        string hometown = "Kaunas";
+        Console.WriteLine($"I grew up in {hometown} and now live in {city}.");
+        
+        string a = "Hello";
+        string b = "World!";
+        Console.WriteLine($"{a}, {b}");
+        (a, b) = (b, a);
+        Console.WriteLine($"{a} {b}");
+            
         // User Input
         // 
         // todo Create a program where the user enters their name and the program prints the name to the console.
