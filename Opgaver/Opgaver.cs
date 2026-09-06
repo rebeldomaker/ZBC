@@ -103,8 +103,17 @@ class Program
              Console.WriteLine(countBackwards);
              countBackwards = countBackwards - 1;
          }
-         // todo Ask the user to enter a number between 1 and 20. Count down from the user's number to 0 and display the countdown.
-         // 
+         // todo Count down from the user's number to 0 and display the countdown.
+         /* x = int(input("Enter a number between 1-20: "))
+        # Count down from the user's number to 0 and display the countdown.
+         while x > 0:
+         print(x)
+         x = x - 1*/
+         
+         // Ask the user to enter a number between 1 and 20. 
+         Console.WriteLine("Choose a number between 1-20. ");
+         Console.ReadLine()
+             
          // todo Create a program that prints a large X to the console using for loops.
          // 
          // todo If you have a lot of lines of code in exercise 5, try and see if you can use fewer lines.
