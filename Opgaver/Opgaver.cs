@@ -143,8 +143,16 @@ class Program
              Console.WriteLine();
          }
          
-         // todo Print the sum of the numbers from 1 to 100.
-         // 
+         // Print the sum of the numbers from 1 to 100.
+         /* int hundred = 100;
+         foreach in (hundred)
+         {
+             Console.WriteLine(hundred);
+             hundred = hundred - 1;
+         }*/
+         
+         
+         
          // todo Create a program that spells a word backwards._
          // 
          // While loop
