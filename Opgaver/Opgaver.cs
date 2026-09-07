@@ -103,7 +103,7 @@ class Program
              Console.WriteLine(countBackwards);
              countBackwards = countBackwards - 1;
          }
-         // todo Count down from the user's number to 0 and display the countdown.
+         // Count down from the user's number to 0 and display the countdown.
          /* x = int(input("Enter a number between 1-20: "))
         # Count down from the user's number to 0 and display the countdown.
          while x > 0:
@@ -112,14 +112,37 @@ class Program
          
          // Ask the user to enter a number between 1 and 20. 
          Console.WriteLine("Choose a number between 1-20. ");
-         int num20 = int.Parse(Console.ReadLine())
-         Console.ReadLine($"You have picked the number {num20}. Countdown begin.")
+         int num20 = int.Parse(Console.ReadLine());
+         Console.WriteLine($"You have picked the number {num20}. Countdown begin.");
+             while (num20 > 0)
+             {
+                 Console.WriteLine(num20);
+                 num20 = num20 - 1;
+             }
+                 
              
              
-         // todo Create a program that prints a large X to the console using for loops.
-         // 
-         // todo If you have a lot of lines of code in exercise 5, try and see if you can use fewer lines.
-         // 
+         // Create a program that prints a large X to the console using for loops.
+         // todo reread code below and re-create in python
+         int size = 5;
+
+         for (int i = 0; i < size; i++)
+         {
+             for (int j = 0; j < size; j++)
+             {
+                 // Print asterisk if we're on a diagonal
+                 if (j == i || j == size - 1 - i)
+                 {
+                     Console.Write("*");
+                 }
+                 else
+                 {
+                     Console.Write(" ");
+                 }
+             }
+             Console.WriteLine();
+         }
+         
          // todo Print the sum of the numbers from 1 to 100.
          // 
          // todo Create a program that spells a word backwards._
