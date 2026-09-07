@@ -144,12 +144,18 @@ class Program
          }
          
          // todo Print the sum of the numbers from 1 to 100. (1 + 2 + 3 + ... + 100 = 5050)
-         int sum = 0;
+         /*int sum = 0;
          foreach in (sum)
          {
              Console.WriteLine(sum);
              sum = sum - 1;
+         }*/
+         int sum = 0;
+         for (int i = 1; i <= 100; i++)
+         {
+             sum = sum + i;  // Add each number
          }
+         Console.WriteLine(sum);
     
 
 
