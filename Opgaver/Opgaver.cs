@@ -170,12 +170,17 @@ class Program
              Console.WriteLine($"{fuck}). Hello World");
          }
          
-         // todo Make a while loop that prints the numbers from 0 to 12, in the console.
-         // 
+         // Make a while loop that prints the numbers from 0 to 12, in the console.
+         int fucker = 0;
+         while (fucker <= 12)
+         {
+             Console.WriteLine(fucker);
+             fucker = fucker + 1;
+         }
          // todo Make a program that asks the user to type "hello", every time the user does not type "hello", the program should print the user's words and ask the user to type "hello". When the user types "hello", the program stops.
-         // 
+         
          // todo Make a program that asks the user for a password. If the user types "secret", the program writes "Access granted", otherwise it asks again.
-         // 
+         
          // todo Make a program that asks the user for a number. If the number is less than 0, the program asks again. When the user enters a positive number, the program stops.
          // 
          // If-else statement
@@ -183,7 +188,7 @@ class Program
          // "You are a teenager", if the age is between 13 and 19.
          // "You are an adult", if over 19.
          // "You are a child", if under 13
-         // 
+         
          // todo Make a program where the user enters a number. If the number is divisible by 2, say "Even number", otherwise "Odd numbers".
          // 
          // todo Make a simple quiz question: "What is the capital of Denmark?" If the answer is "Copenhagen", then print "Correct!", otherwise "Incorrect!".
