@@ -112,7 +112,9 @@ class Program
          
          // Ask the user to enter a number between 1 and 20. 
          Console.WriteLine("Choose a number between 1-20. ");
-         Console.ReadLine()
+         int num20 = int.Parse(Console.ReadLine())
+         Console.ReadLine($"You have picked the number {num20}. Countdown begin.")
+             
              
          // todo Create a program that prints a large X to the console using for loops.
          // 
