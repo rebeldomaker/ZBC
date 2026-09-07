@@ -162,8 +162,14 @@ class Program
          // todo Create a program that spells a word backwards._
          // 
          // While loop
-         // todo Create a while loop that prints "Hello World!" 6 times.
-         // 
+         // Create a while loop that prints "Hello World!" 6 times.
+         int fuck = 6;
+         while (fuck != 0)
+         {
+             fuck = fuck - 1;
+             Console.WriteLine($"{fuck}). Hello World");
+         }
+         
          // todo Make a while loop that prints the numbers from 0 to 12, in the console.
          // 
          // todo Make a program that asks the user to type "hello", every time the user does not type "hello", the program should print the user's words and ask the user to type "hello". When the user types "hello", the program stops.
