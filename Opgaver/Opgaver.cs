@@ -253,7 +253,17 @@ class Program
              */ 
          // Extra tasks
          // todo Mini-login system: The user must enter a username and password. Check if it matches the correct username and password, and grant access.
-         // 
+         /*    print("< Create an Account >")
+            username = input("Create a username: ")
+            password = input("Choose your password: ")
+            print("[ Login Screen ]")
+            u = input("Enter username: ")
+            p = input("Enter password: ")
+            
+            if u == username and p == password:
+                print("Logged in. Access granted.")
+            else:
+                print("Invalid username or password. Try again.")*/ 
          // todo Calculator: The user selects an operation (e.g. +, -, *, /) and enters two numbers. The program displays the result.
          // 
          // todo Guess a number: The computer chooses a random number between 1 and 10. The user must guess it. The program tells you if it is too high, low or correct.
@@ -262,13 +272,11 @@ class Program
          // 
          // Array
          // todo Create an array that contains 4 of your classmates' names.
-         //
          // todo Print the length of the array.
-         // 
          // todo Print the third name from the array in task 1.
-         // 
          // todo Print the entire array using Foreach()
-         // 
+         
+         
          // todo Create a 2d array with {1,2,3,4} and {5,6,7,8}
          // 
          // todo Print different places from task 5
