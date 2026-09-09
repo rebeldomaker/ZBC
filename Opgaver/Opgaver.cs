@@ -170,14 +170,22 @@ class Program
              Console.WriteLine($"{fuck}). Hello World");
          }
          
-         // Make a while loop that prints the numbers from 0 to 12, in the console.
+         // todo Make a while loop that prints the numbers from 0 to 12, in the console.
          int fucker = 0;
          while (fucker <= 12)
          {
              Console.WriteLine(fucker);
              fucker = fucker + 1;
          }
+         /* def sayHello():
+            x = input("Type hello: ")
+            while x.lower() != "hello": # while x != "hello" and x != "Hello" and x != "HELLO":
+                print(f"You have typed '{x}', that is incorrect! Try again.")
+                x = input("Type hello: ")
+            print("You've typed correctly! Hello World! Exiting program.")*/
+         
          // todo Make a program that asks the user to type "hello", every time the user does not type "hello", the program should print the user's words and ask the user to type "hello". When the user types "hello", the program stops.
+         
          
          // todo Make a program that asks the user for a password. If the user types "secret", the program writes "Access granted", otherwise it asks again.
          
@@ -185,20 +193,64 @@ class Program
          // 
          // If-else statement
          // todo Make a program where you enter an age, and it prints:
-         // "You are a teenager", if the age is between 13 and 19.
-         // "You are an adult", if over 19.
-         // "You are a child", if under 13
+         /*    x = int(input("Type your age: "))
+
+            if 14 <= x <= 19:
+            
+                print("You are a teenager")
+
+            elif x <= 13:
+                print("You are a child")
+
+            else:
+                print("You are an adult")
+                
+                # alternatively:
+                
+                    x = int(input("Type your age: "))
+
+            if 14 <= x <= 19: 
+                """if x in [14, 17, 19]:
+            if 14 <= x <= 17:"""
+                print("You are a teenager")
+
+            elif x <= 13:
+                print("You are a child")
+
+            else:
+                print("You are an adult")
+                        
+                 */
          
          // todo Make a program where the user enters a number. If the number is divisible by 2, say "Even number", otherwise "Odd numbers".
-         // 
+         /*    x = int(input("Enter a number: "))
+            if x % 2 == 0:
+                print("Even number")
+            else:
+                print("Odd number")*/ 
+         
+         
          // todo Make a simple quiz question: "What is the capital of Denmark?" If the answer is "Copenhagen", then print "Correct!", otherwise "Incorrect!".
-         // 
+
          // todo Make a program that asks about the temperature (number). If it is below 0, print "It is freezing", if between 0 and 20, print "It is cold", otherwise "It is hot".
          // 
          // todo Make a program that checks whether a letter is a vowel or a consonant.
-         // 
+                   /*    letter = input("Enter a letter: ").lower()
+                     //            
+                     //            if letter in "aeiou":
+                     //                print("Vowel")
+                     //            else:
+                     //                print("Consonant")         
+                     //            */ 
          // todo Make a program that finds the largest of 3 numbers.
-         // 
+         /*    x = [] # empty list init
+            for i in range(3): # asks 3 times for input, appends each input from user to the list
+                num = int(input("Enter a number: "))
+                x.append(num) # adds to list
+            largest = max(x) # finds the largest number
+            smallest = min(x)
+            print(f"{largest} is the largest number and {smallest} is the smallest number.")
+             */ 
          // Extra tasks
          // todo Mini-login system: The user must enter a username and password. Check if it matches the correct username and password, and grant access.
          // 
