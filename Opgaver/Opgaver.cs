@@ -151,7 +151,7 @@ class Program
          Console.WriteLine(sum);
          }
          
-         // Create a program that spells a word backwards._
+         // Create a program that spells a word backwards.
             Console.WriteLine("Type any word: ");
             string word = Console.ReadLine();
             
@@ -160,15 +160,14 @@ class Program
             Console.WriteLine(backwards);
             
             // manual way using a loop:
-            string backwards = word[::-1]
-            Console.WriteLine(backwards);
+            // string backwards = word[::-1]
             // y = for i in x
-            backwards = ""
-                for (string letter in word)
-                {
-                    backwards = letter + backwards // Add each letter to the FRONT
-                }
-                Console.WriteLine(backwards);
+            backwards = "";
+            foreach (char letter in word)
+            {
+                backwards = letter + backwards; // Add each letter to the FRONT
+            }
+            Console.WriteLine(backwards);
         
          // While loop
          // Create a while loop that prints "Hello World!" 6 times.
