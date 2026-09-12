@@ -192,8 +192,18 @@ class Program
                 x = input("Type hello: ")
             print("You've typed correctly! Hello World! Exiting program.")*/
          
-         // todo Make a program that asks the user to type "hello", every time the user does not type "hello", the program should print the user's words and ask the user to type "hello". When the user types "hello", the program stops.
-         
+         // Make a program that asks the user to type "hello", every time the user does not type "hello", the program should print the user's words and ask the user to type "hello". When the user types "hello", the program stops.
+         /*    x = input("Type hello: ")
+            print("You've typed correctly! Hello World! Exiting program.")
+                  */
+         Console.WriteLine("Type hello: ");
+         string typeHello = Console.ReadLine();
+         while (typeHello.ToLower() != "hello")
+         {
+             Console.WriteLine($"You have typed {typeHello}, that is incorrect! Try again.");
+             typeHello = Console.ReadLine();
+         }
+         Console.WriteLine("You've typed correctly! Hello World! Exiting program.");
          
          // todo Make a program that asks the user for a password. If the user types "secret", the program writes "Access granted", otherwise it asks again.
          
