@@ -169,7 +169,7 @@ class Program
             }
             Console.WriteLine(backwards);
         
-         // While loop
+         // While loops
          // Create a while loop that prints "Hello World!" 6 times.
          int fuck = 6;
          while (fuck != 0)
@@ -178,9 +178,9 @@ class Program
              Console.WriteLine($"{fuck}). Hello World");
          }
          
-         // todo Make a while loop that prints the numbers from 0 to 12, in the console.
+         // Make a while loop that prints the numbers from 0 to 12, in the console.
          int fucker = 0;
-         while (fucker <= 12)
+         while (fucker != 12)
          {
              Console.WriteLine(fucker);
              fucker = fucker + 1;
