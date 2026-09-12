@@ -60,7 +60,7 @@ class Program
         
         // Ask the user their age and tell them how many years they have left until they turn 100.
         Console.WriteLine("What year were you born in?");
-        int userYear = int.Parse(Console.ReadLine()); // todo parse to integer
+        int userYear = int.Parse(Console.ReadLine()); // parses to integer
         int userCurrentAge = currentYear - userYear; // int.Parse(userYear);
         int futureYear = userYear + 100;
         int hundredYears = 100 - userCurrentAge; // 100 - 29 = result
@@ -122,8 +122,7 @@ class Program
                  
              
              
-         // Create a program that prints a large X to the console using for loops.
-         // todo reread code below and re-create in python
+         // a program that prints a large X to the console using for loops.
          int size = 5;
 
          for (int i = 0; i < size; i++)
@@ -143,24 +142,31 @@ class Program
              Console.WriteLine();
          }
          
-         // todo Print the sum of the numbers from 1 to 100. (1 + 2 + 3 + ... + 100 = 5050)
-         /*int sum = 0;
-         foreach in (sum)
-         {
-             Console.WriteLine(sum);
-             sum = sum - 1;
-         }*/
+         // Print the sum of the numbers from 1 to 100. (1 + 2 + 3 + ... + 100 = 5050)
+         /* foreach in (sum) */
          int sum = 0;
          for (int i = 1; i <= 100; i++)
          {
              sum = sum + i;  // Add each number
-         }
          Console.WriteLine(sum);
-    
-
-
+         }
+         
          // todo Create a program that spells a word backwards._
-         // 
+        /*
+         * word = input("Type a word: ")
+           backwards = word[::-1]
+           print(backwards)
+           # y = for i in x
+           backwards = ""
+
+           for letter in word:
+               backwards = letter + backwards  # Add each letter to the FRONT
+                print(backwards)
+         */
+            Console.WriteLine("Type any word: ");
+            string word = Console.ReadLine();
+            string backwards = 
+        
          // While loop
          // Create a while loop that prints "Hello World!" 6 times.
          int fuck = 6;
