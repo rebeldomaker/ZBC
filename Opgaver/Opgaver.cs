@@ -205,8 +205,28 @@ class Program
          }
          Console.WriteLine("You've typed correctly! Hello World! Exiting program.");
          
-         // todo Make a program that asks the user for a password. If the user types "secret", the program writes "Access granted", otherwise it asks again.
-         
+         // password exercise
+         int attemptsLeft = 2;
+         Console.WriteLine($"[ DEBIAN LOGIN SCREEN ]\nLAST LOGIN: {DateTime.Now.ToShortDateString()}.\nRoot Password: ");
+         string rootPassword = Console.ReadLine();
+
+         while (rootPassword != "root" && attemptsLeft > 0)
+         {
+             Console.WriteLine($"Wrong password. {attemptsLeft} attempts left. Try again.");
+             rootPassword = Console.ReadLine();
+             attemptsLeft--;
+         }
+
+         if (rootPassword == "root")
+         {
+             Console.WriteLine("Access granted.");
+         }
+         else
+         {
+             Console.WriteLine("Access denied. Too many failed attempts.");
+         }
+
+
          // todo Make a program that asks the user for a number. If the number is less than 0, the program asks again. When the user enters a positive number, the program stops.
          // 
          // If-else statement
@@ -214,7 +234,7 @@ class Program
          /*    x = int(input("Type your age: "))
 
             if 14 <= x <= 19:
-            
+
                 print("You are a teenager")
 
             elif x <= 13:
@@ -222,12 +242,12 @@ class Program
 
             else:
                 print("You are an adult")
-                
+
                 # alternatively:
-                
+
                     x = int(input("Type your age: "))
 
-            if 14 <= x <= 19: 
+            if 14 <= x <= 19:
                 """if x in [14, 17, 19]:
             if 14 <= x <= 17:"""
                 print("You are a teenager")
@@ -237,29 +257,29 @@ class Program
 
             else:
                 print("You are an adult")
-                        
+
                  */
-         
+
          // todo Make a program where the user enters a number. If the number is divisible by 2, say "Even number", otherwise "Odd numbers".
          /*    x = int(input("Enter a number: "))
             if x % 2 == 0:
                 print("Even number")
             else:
-                print("Odd number")*/ 
-         
-         
+                print("Odd number")*/
+
+
          // todo Make a simple quiz question: "What is the capital of Denmark?" If the answer is "Copenhagen", then print "Correct!", otherwise "Incorrect!".
 
          // todo Make a program that asks about the temperature (number). If it is below 0, print "It is freezing", if between 0 and 20, print "It is cold", otherwise "It is hot".
          // 
          // todo Make a program that checks whether a letter is a vowel or a consonant.
-                   /*    letter = input("Enter a letter: ").lower()
-                     //            
-                     //            if letter in "aeiou":
-                     //                print("Vowel")
-                     //            else:
-                     //                print("Consonant")         
-                     //            */ 
+         /*    letter = input("Enter a letter: ").lower()
+           //
+           //            if letter in "aeiou":
+           //                print("Vowel")
+           //            else:
+           //                print("Consonant")
+           //            */
          // todo Make a program that finds the largest of 3 numbers.
          /*    x = [] # empty list init
             for i in range(3): # asks 3 times for input, appends each input from user to the list
@@ -268,7 +288,7 @@ class Program
             largest = max(x) # finds the largest number
             smallest = min(x)
             print(f"{largest} is the largest number and {smallest} is the smallest number.")
-             */ 
+             */
          // Extra tasks
          // todo Mini-login system: The user must enter a username and password. Check if it matches the correct username and password, and grant access.
          /*    print("< Create an Account >")
@@ -277,11 +297,11 @@ class Program
             print("[ Login Screen ]")
             u = input("Enter username: ")
             p = input("Enter password: ")
-            
+
             if u == username and p == password:
                 print("Logged in. Access granted.")
             else:
-                print("Invalid username or password. Try again.")*/ 
+                print("Invalid username or password. Try again.")*/
          // todo Calculator: The user selects an operation (e.g. +, -, *, /) and enters two numbers. The program displays the result.
          // 
          // todo Guess a number: The computer chooses a random number between 1 and 10. The user must guess it. The program tells you if it is too high, low or correct.
@@ -293,8 +313,8 @@ class Program
          // todo Print the length of the array.
          // todo Print the third name from the array in task 1.
          // todo Print the entire array using Foreach()
-         
-         
+
+
          // todo Create a 2d array with {1,2,3,4} and {5,6,7,8}
          // 
          // todo Print different places from task 5
