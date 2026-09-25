@@ -228,7 +228,8 @@ class Program
 
 
          // todo Make a program that asks the user for a number. If the number is less than 0, the program asks again. When the user enters a positive number, the program stops.
-         // 
+         
+         
          // If-else statement
          // todo Make a program where you enter an age, and it prints:
          /*    x = int(input("Type your age: "))
@@ -271,7 +272,7 @@ class Program
          // todo Make a simple quiz question: "What is the capital of Denmark?" If the answer is "Copenhagen", then print "Correct!", otherwise "Incorrect!".
 
          // todo Make a program that asks about the temperature (number). If it is below 0, print "It is freezing", if between 0 and 20, print "It is cold", otherwise "It is hot".
-         // 
+         
          // todo Make a program that checks whether a letter is a vowel or a consonant.
          /*    letter = input("Enter a letter: ").lower()
            //
@@ -303,11 +304,11 @@ class Program
             else:
                 print("Invalid username or password. Try again.")*/
          // todo Calculator: The user selects an operation (e.g. +, -, *, /) and enters two numbers. The program displays the result.
-         // 
+         
          // todo Guess a number: The computer chooses a random number between 1 and 10. The user must guess it. The program tells you if it is too high, low or correct.
-         // 
+         
          // todo Check if a number is even or odd.
-         // 
+         
          // Array
          // todo Create an array that contains 4 of your classmates' names.
          // todo Print the length of the array.
@@ -316,7 +317,7 @@ class Program
 
 
          // todo Create a 2d array with {1,2,3,4} and {5,6,7,8}
-         // 
+         
          // todo Print different places from task 5
     }
 }
